@@ -22,6 +22,12 @@
     "url": "https://github.com/cristian-azocar/react-code-auto-typing/issues"
   },
   "homepage": "https://github.com/cristian-azocar/react-code-auto-typing#readme",
+  "keywords": [
+    "react",
+    "highlighting",
+    "typing",
+    "auto typing"
+  ],
   "devDependencies": {
     "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
