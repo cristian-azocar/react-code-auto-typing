@@ -1,6 +1,6 @@
 {
   "name": "react-code-auto-typing",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatic code writing animation with highlighting included",
   "main": "dist/cjs/CodeAutoTyping.js",
   "module": "dist/esm/CodeAutoTyping.js",
