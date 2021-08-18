@@ -21,7 +21,7 @@ function CodeAutoTyping(props) {
 }
 
 CodeAutoTyping.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.string,
   syntaxHighlighterProps: PropTypes.instanceOf(SyntaxHighlighter),
 };
 
