@@ -1,6 +1,17 @@
 {
-  "extends": ["react-app", "airbnb", "prettier"],
-  "plugins": ["prettier"],
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
   "rules": {
     "prettier/prettier": "error",
     "react/jsx-props-no-spreading": "off"
