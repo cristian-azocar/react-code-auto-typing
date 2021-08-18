@@ -2,6 +2,7 @@
   "extends": ["react-app", "airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "react/jsx-props-no-spreading": "off"
   }
 }
