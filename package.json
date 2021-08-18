@@ -1,0 +1,19 @@
+{
+  "name": "react-code-auto-typing",
+  "version": "1.0.0",
+  "description": "Automatic code writing animation with highlighting included",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-azocar/react-code-auto-typing.git"
+  },
+  "author": "Cristian Azócar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian-azocar/react-code-auto-typing/issues"
+  },
+  "homepage": "https://github.com/cristian-azocar/react-code-auto-typing#readme"
+}
