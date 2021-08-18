@@ -13,7 +13,7 @@ function CodeAutoTyping(props) {
 
   return (
     <Typist {...defaultTypistProps} {...rest}>
-      <SyntaxHighlighter {...syntaxHighlighterProps}>
+      <SyntaxHighlighter showLineNumbers wrapLines {...syntaxHighlighterProps}>
         {children}
       </SyntaxHighlighter>
     </Typist>
