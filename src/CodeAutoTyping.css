@@ -1,0 +1,29 @@
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Typist code > span {
+  position: relative;
+}
+
+.Typist code > span:last-of-type:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  right: -2px;
+  bottom: -2px;
+  height: 20px;
+  border-right: 1px solid;
+  color: #fff;
+  animation: 1s blink step-end infinite;
+}
+
+.Typist .linenumber {
+  opacity: 0.4;
+  min-width: 30px !important;
+}
