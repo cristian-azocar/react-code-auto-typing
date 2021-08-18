@@ -2,6 +2,8 @@
 
 **React Code Auto Typing** is a React component for automatic code writing animation with highlighting included. Under the hood it uses [react-typist](https://github.com/jstejada/react-typist) and [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter).
 
+Check out a working demo [here](https://codesandbox.io/s/react-code-auto-typing-demo-t7kps).
+
 ## Install
 
 ```
