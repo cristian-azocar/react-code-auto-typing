@@ -12,7 +12,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "strict": true,
-    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
