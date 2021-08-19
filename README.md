@@ -23,7 +23,7 @@ console.log(greet('John'));`;
 
 export default function Example() {
   return (
-    <CodeAutoTyping syntaxHighlighterProps={{ language: "javascript" }}>
+    <CodeAutoTyping language="javascript">
       {snippet}
     </CodeAutoTyping>
   );
@@ -45,10 +45,8 @@ const snippet = "console.log('Hello World');";
 export default function Example() {
   return (
     <CodeAutoTyping
-      syntaxHighlighterProps={{
-        language: "javascript",
-        style: ocean
-      }}
+      language="javascript"
+      syntaxHighlighterProps={{ style: ocean }}
     >
       {snippet}
     </CodeAutoTyping>
@@ -60,11 +58,12 @@ export default function Example() {
 
 This component is basically a wrapper for `react-typist` and `react-syntax-highlighter`, so all props are forwarded to the corresponding library component.
 
-| Prop                   | Type   | Description                                        |
-| ---------------------- | ------ | -------------------------------------------------- |
-| children               | string | the code to highlight and animate                  |
-| syntaxHighlighterProps | object | props forwarded to the SyntaxHighlighter component |
-| spread props           | object | props forwarded to the Typist component            |
+| Prop name              | Type                     | Description                                        |
+| ---------------------- | ------------------------ | -------------------------------------------------- |
+| children               | `string`                 | The code to highlight and animate                  |
+| language               | `string`                 | The language of the code                           |
+| syntaxHighlighterProps | `SyntaxHighlighterProps` | Props forwarded to the SyntaxHighlighter component |
+| spread props           | `TypistProps`            | Props forwarded to the Typist component            |
 
 For more detail on the props of each library, visit the corresponding documentation:
 
