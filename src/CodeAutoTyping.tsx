@@ -5,21 +5,16 @@ import SyntaxHighlighter, {
 } from 'react-syntax-highlighter';
 import './CodeAutoTyping.css';
 
-type BaseProps = React.ComponentPropsWithoutRef<'div'>;
-
-export interface CodeAutoTypingProps extends BaseProps {
-  syntaxHighlighterProps: SyntaxHighlighterProps;
+export interface CodeAutoTypingProps extends TypistProps {
+  children?: React.ReactNode;
+  syntaxHighlighterProps?: SyntaxHighlighterProps;
 }
-
-const defaultTypistProps: Partial<TypistProps> = {
-  cursor: { show: false },
-};
 
 function CodeAutoTyping(props: CodeAutoTypingProps): JSX.Element {
   const { children, syntaxHighlighterProps, ...rest } = props;
 
   return (
-    <Typist {...defaultTypistProps} {...rest}>
+    <Typist cursor={{ show: false }} {...rest}>
       <SyntaxHighlighter showLineNumbers wrapLines {...syntaxHighlighterProps}>
         {children}
       </SyntaxHighlighter>
